@@ -26,3 +26,24 @@ window.addEventListener("scroll", () => {
     if (!header) return;
     header.classList.toggle("scrolled", window.scrollY > 12);
 }, { passive: true });
+
+/* GA4 conversion tracking */
+document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+    link.addEventListener('click', () => {
+        if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+                method: 'email'
+            });
+        }
+    });
+});
+
+document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
+    link.addEventListener('click', () => {
+        if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+                method: 'phone'
+            });
+        }
+    });
+});
