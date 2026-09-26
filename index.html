@@ -3,343 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Ansari Digital Solutions | अब Digital होगा, आपका Business!</title>
-
-    <meta
-        name="description"
-        content="Ansari Digital Solutions helps businesses build modern websites, web applications, automation solutions, ERP systems, and data-driven digital solutions."
-    >
-
+    <meta name="theme-color" content="#102a43">
+    <title>Ansari Digital Solutions | Finance, Data & Business Intelligence</title>
+    <meta name="description" content="Ansari Digital Solutions provides practical Virtual CFO support, financial reporting, analytics and business intelligence for growing businesses.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <span>ADS</span>
-                <div>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Primary navigation">
+            <a class="brand" href="#home" aria-label="Ansari Digital Solutions home">
+                <span class="brand-mark">ADS</span>
+                <span class="brand-copy">
                     <strong>Ansari Digital Solutions</strong>
-                    <small>अब Digital होगा, आपका Business!</small>
-                </div>
-            </div>
-
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#industries">Industries</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <a href="#contact" class="nav-button">
-                Let's Talk
+                    <small>Finance • Data • Business Intelligence</small>
+                </span>
             </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-wrap" id="primary-menu">
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#virtual-cfo">Virtual CFO</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#approach">Approach</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="nav-button">Book a Consultation <span>↗</span></a>
+            </div>
         </nav>
     </header>
 
-
-    <!-- Hero Section -->
     <main>
-
-        <section id="home" class="hero">
-
-            <div class="hero-content">
-
-                <p class="eyebrow">
-                    DIGITAL SOLUTIONS FOR MODERN BUSINESSES
-                </p>
-
-                <h1>
-                    अब Digital होगा,<br>
-                    आपका Business!
-                </h1>
-
-                <p class="hero-text">
-                    We help businesses build a stronger digital presence
-                    through modern websites, web applications, automation,
-                    ERP solutions, and data-driven insights.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#contact" class="primary-button">
-                        Let's Digitize Your Business
-                    </a>
-
-                    <a href="#services" class="secondary-button">
-                        Explore Services
-                    </a>
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">FINANCE • DATA • BUSINESS INTELLIGENCE</p>
+                    <h1>Better financial visibility.<br><em>Better business decisions.</em></h1>
+                    <p class="hero-lead">Practical financial management, reporting and analytics support for growing businesses that want more clarity from their numbers.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#contact">Book a Consultation <span>↗</span></a>
+                        <a class="button button-text" href="#services">Explore Services <span>↓</span></a>
+                    </div>
+                    <div class="trust-line">
+                        <span>Built on finance experience</span>
+                        <span>•</span>
+                        <span>Designed for practical decisions</span>
+                    </div>
                 </div>
 
+                <div class="hero-panel" aria-label="Financial visibility illustration">
+                    <div class="panel-top">
+                        <span>BUSINESS VIEW</span>
+                        <span class="status-dot">● LIVE</span>
+                    </div>
+                    <div class="panel-main">
+                        <p class="panel-label">Financial clarity</p>
+                        <div class="panel-value">Know your numbers.</div>
+                        <div class="chart" aria-hidden="true">
+                            <span style="height:28%"></span>
+                            <span style="height:42%"></span>
+                            <span style="height:36%"></span>
+                            <span style="height:55%"></span>
+                            <span style="height:48%"></span>
+                            <span style="height:72%"></span>
+                            <span style="height:86%"></span>
+                        </div>
+                    </div>
+                    <div class="panel-bottom">
+                        <div><small>REPORT</small><strong>Monthly MIS</strong></div>
+                        <div><small>FOCUS</small><strong>Cash • Profit • Growth</strong></div>
+                    </div>
+                    <div class="indian-detail" aria-hidden="true"></div>
+                </div>
             </div>
+        </section>
 
+        <section class="numbers-strip" aria-label="Experience highlights">
+            <div class="container numbers-grid">
+                <div><strong>11+</strong><span>Years in Finance & Accounting</span></div>
+                <div><strong>20M+</strong><span>Annual transactions supported</span></div>
+                <div><strong>7+</strong><span>Financial data sources & interfaces</span></div>
+                <div><strong>5,000+</strong><span>Reporting users supported</span></div>
+            </div>
+        </section>
 
-            <div class="hero-visual">
-
-                <div class="digital-card">
-
-                    <div class="card-header">
-                        <span>ADS</span>
-                        <span>●</span>
+        <section class="section problem-section">
+            <div class="container two-column">
+                <div>
+                    <p class="eyebrow">THE REAL QUESTION</p>
+                    <h2>Your accounts tell you what happened.<br><em>We help you understand why.</em></h2>
+                </div>
+                <div class="problem-copy">
+                    <p>Business owners rarely need another spreadsheet. They need a clearer view of what the numbers mean and what action to take next.</p>
+                    <div class="question-list">
+                        <div><span>01</span><strong>Are we actually profitable?</strong></div>
+                        <div><span>02</span><strong>Where is our cash going?</strong></div>
+                        <div><span>03</span><strong>Why did profit or margin change?</strong></div>
+                        <div><span>04</span><strong>Which costs or customers need attention?</strong></div>
+                        <div><span>05</span><strong>Can we safely afford the next investment?</strong></div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="card-content">
-                        <div class="circle"></div>
-
-                        <h3>
-                            Digital Business
-                        </h3>
-
-                        <p>
-                            Websites • Automation • ERP • Data & BI
-                        </p>
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">WHAT ADS DOES</p>
+                        <h2>Finance support built around <em>your decisions.</em></h2>
                     </div>
-
+                    <p>We connect financial information, business data and management thinking so you can see performance more clearly.</p>
                 </div>
 
+                <div class="services-grid">
+                    <article class="service-card featured">
+                        <span class="service-number">01</span>
+                        <div class="service-icon">₹</div>
+                        <h3>Virtual CFO Support</h3>
+                        <p>Ongoing financial review, cash-flow visibility, budgeting, management reporting and decision support.</p>
+                        <a href="#virtual-cfo">Explore CFO Support <span>↗</span></a>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-number">02</span>
+                        <div class="service-icon">▤</div>
+                        <h3>Financial Reporting & MIS</h3>
+                        <p>Clear monthly management information that turns accounting data into useful business insight.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+                        <div class="service-icon">⌁</div>
+                        <h3>Financial Analytics</h3>
+                        <p>Trends, exceptions, cost movements, profitability and performance drivers that deserve attention.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-number">04</span>
+                        <div class="service-icon">◫</div>
+                        <h3>Business Intelligence</h3>
+                        <p>Management dashboards and Power BI reporting designed around the questions your business asks.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-number">05</span>
+                        <div class="service-icon">↗</div>
+                        <h3>Finance Process Automation</h3>
+                        <p>Practical improvements using Excel, Power Query, VBA and data workflows to reduce repetitive work.</p>
+                    </article>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- Services -->
-        <section id="services" class="section">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    WHAT WE DO
-                </p>
-
-                <h2>
-                    Digital Solutions Built for Business
-                </h2>
-
-                <p>
-                    From your first website to connected business systems,
-                    we help you move your business forward with technology.
-                </p>
-
+        <section class="section cfo-section" id="virtual-cfo">
+            <div class="container cfo-grid">
+                <div class="cfo-intro">
+                    <p class="eyebrow">VIRTUAL CFO SUPPORT</p>
+                    <h2>Finance leadership without the cost of a <em>full-time CFO.</em></h2>
+                    <p>For businesses that have accounting activity but need stronger financial visibility, structured review and a finance perspective on important decisions.</p>
+                    <a class="button button-primary" href="#contact">Discuss Your Business <span>↗</span></a>
+                </div>
+                <div class="cfo-list">
+                    <div><span>01</span><div><h3>Monthly P&L review</h3><p>Understand revenue, margins, expenses and what changed.</p></div></div>
+                    <div><span>02</span><div><h3>Cash-flow visibility</h3><p>Track inflows, outflows, working capital and upcoming pressure points.</p></div></div>
+                    <div><span>03</span><div><h3>Budget vs actual</h3><p>Compare plans with reality and investigate meaningful variances.</p></div></div>
+                    <div><span>04</span><div><h3>KPI & management reporting</h3><p>Bring the numbers that matter into one practical management view.</p></div></div>
+                    <div><span>05</span><div><h3>Decision support</h3><p>Use financial analysis to evaluate hiring, spending, pricing and growth decisions.</p></div></div>
+                </div>
             </div>
-
-
-            <div class="services-grid">
-
-                <article class="service-card">
-                    <span class="service-number">01</span>
-
-                    <h3>
-                        Business Websites
-                    </h3>
-
-                    <p>
-                        Professional, responsive websites that help your
-                        business establish a strong digital presence.
-                    </p>
-                </article>
-
-
-                <article class="service-card">
-                    <span class="service-number">02</span>
-
-                    <h3>
-                        Web Applications
-                    </h3>
-
-                    <p>
-                        Custom web applications designed around your
-                        business processes and customer needs.
-                    </p>
-                </article>
-
-
-                <article class="service-card">
-                    <span class="service-number">03</span>
-
-                    <h3>
-                        Business Automation
-                    </h3>
-
-                    <p>
-                        Reduce repetitive manual work and improve
-                        efficiency through smart automation.
-                    </p>
-                </article>
-
-
-                <article class="service-card">
-                    <span class="service-number">04</span>
-
-                    <h3>
-                        ERP Solutions
-                    </h3>
-
-                    <p>
-                        Technology and ERP solutions that connect your
-                        business processes and improve visibility.
-                    </p>
-                </article>
-
-
-                <article class="service-card">
-                    <span class="service-number">05</span>
-
-                    <h3>
-                        Data & BI
-                    </h3>
-
-                    <p>
-                        Turn your business data into meaningful insights
-                        through SQL, analytics, and Power BI.
-                    </p>
-                </article>
-
-            </div>
-
         </section>
 
-
-        <!-- About -->
-        <section id="about" class="section about-section">
-
-            <div class="about-content">
-
-                <p class="eyebrow">
-                    ABOUT ADS
-                </p>
-
-                <h2>
-                    We Don't Just Build Websites.
-                    We Help Businesses Go Digital.
-                </h2>
-
-                <p>
-                    Ansari Digital Solutions is a technology-focused business
-                    helping small and medium businesses adopt practical
-                    digital solutions.
-                </p>
-
-                <p>
-                    We start with the fundamentals — a strong digital
-                    presence — and grow with your business through
-                    automation, web applications, ERP solutions, and
-                    data-driven decision making.
-                </p>
-
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-portrait">
+                    <div class="portrait-mark">AA</div>
+                    <span>FINANCE<br>& DATA</span>
+                </div>
+                <div class="about-copy">
+                    <p class="eyebrow">THE PERSON BEHIND ADS</p>
+                    <h2>Finance experience.<br><em>Data thinking.</em></h2>
+                    <p class="lead">Ansari Digital Solutions is led by <strong>Ali Ababas Ansari</strong>, a Finance Data & Systems Specialist with 11+ years of experience across finance operations, SAP FI, financial analytics, reporting and process improvement.</p>
+                    <p>The approach is straightforward: understand the business question first, connect it to reliable financial information, then turn the analysis into something management can act on.</p>
+                    <div class="credentials">
+                        <span>MBA Finance</span>
+                        <span>SAP FI</span>
+                        <span>Financial Analytics</span>
+                        <span>Power BI</span>
+                        <span>SQL & PostgreSQL</span>
+                    </div>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- Industries -->
-        <section id="industries" class="section">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    INDUSTRIES
-                </p>
-
-                <h2>
-                    Digital Solutions Across Industries
-                </h2>
-
+        <section class="section approach-section" id="approach">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="eyebrow">HOW WE WORK</p>
+                    <h2>Simple process. <em>Clear outcomes.</em></h2>
+                    <p>Professional finance support should make your business easier to understand—not create another layer of complexity.</p>
+                </div>
+                <div class="approach-grid">
+                    <div><span>01</span><h3>Understand</h3><p>Learn how your business earns, spends and manages cash.</p></div>
+                    <div><span>02</span><h3>Analyse</h3><p>Find trends, exceptions, risks and performance drivers.</p></div>
+                    <div><span>03</span><h3>Report</h3><p>Turn the important numbers into clear management information.</p></div>
+                    <div><span>04</span><h3>Review</h3><p>Discuss what changed, why it changed and what matters next.</p></div>
+                    <div><span>05</span><h3>Improve</h3><p>Build better processes, visibility and decision-making over time.</p></div>
+                </div>
             </div>
-
-
-            <div class="industry-grid">
-
-                <div>Manufacturing</div>
-                <div>Retail</div>
-                <div>Professional Services</div>
-                <div>Healthcare</div>
-                <div>Hospitality</div>
-                <div>Education</div>
-
-            </div>
-
         </section>
 
-
-        <!-- CTA -->
-        <section class="cta-section">
-
-            <h2>
-                Ready to Take Your Business Digital?
-            </h2>
-
-            <p>
-                Let's discuss how technology can help your business
-                grow, automate, and operate more efficiently.
-            </p>
-
-            <a href="#contact" class="primary-button">
-                Start a Conversation
-            </a>
-
+        <section class="india-section">
+            <div class="container india-inner">
+                <div>
+                    <p class="eyebrow">ROOTED IN INDIA</p>
+                    <h2>Built in India.<br><em>Focused on your business.</em></h2>
+                </div>
+                <p>We believe good financial support should be practical, transparent and built around long-term business relationships. No unnecessary jargon. No one-size-fits-all dashboards.</p>
+            </div>
+            <div class="pattern" aria-hidden="true"></div>
         </section>
 
-
-        <!-- Contact -->
-        <section id="contact" class="section contact-section">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    GET IN TOUCH
-                </p>
-
-                <h2>
-                    Let's Digitize Your Business
-                </h2>
-
-                <p>
-                    Tell us about your business and what you want to improve.
-                </p>
-
+        <section class="section contact-section" id="contact">
+            <div class="container contact-card">
+                <div>
+                    <p class="eyebrow">START A CONVERSATION</p>
+                    <h2>Know your numbers.<br><em>Understand your business.</em></h2>
+                    <p>Tell us where you need better financial visibility, reporting or business insight.</p>
+                </div>
+                <div class="contact-details">
+                    <a class="contact-email" href="mailto:aliababasansari@gmail.com">aliababasansari@gmail.com</a>
+                    <a class="button button-primary" href="mailto:aliababasansari@gmail.com?subject=Business%20Finance%20Consultation">Book a Consultation <span>↗</span></a>
+                    <p>Delhi, India • Serving growing businesses</p>
+                </div>
             </div>
-
-
-            <div class="contact-info">
-
-                <p>
-                    Email:
-                    <a href="mailto:digitalsolutions.ansari@gmail.com">
-                        digitalsolutions.ansari@gmail.com
-                    </a>
-                </p>
-
-                <p>
-                    Website:
-                    ansaridigitalsolutions.com
-                </p>
-
-            </div>
-
         </section>
-
     </main>
 
-
-    <!-- Footer -->
-    <footer>
-
-        <div>
-            <strong>ADS</strong>
-            <p>Ansari Digital Solutions</p>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="#home">
+                    <span class="brand-mark">ADS</span>
+                    <span class="brand-copy"><strong>Ansari Digital Solutions</strong><small>Finance • Data • Business Intelligence</small></span>
+                </a>
+                <p>Practical financial visibility for better business decisions.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#virtual-cfo">Virtual CFO</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-note">
+                <span>© 2026 Ansari Digital Solutions</span>
+                <span>Built in India</span>
+            </div>
         </div>
-
-        <p>
-            © 2026 Ansari Digital Solutions. All rights reserved.
-        </p>
-
     </footer>
 
-
     <script src="script.js"></script>
-
 </body>
 </html>
