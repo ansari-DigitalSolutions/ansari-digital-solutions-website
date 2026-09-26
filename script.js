@@ -28,22 +28,19 @@ window.addEventListener("scroll", () => {
 }, { passive: true });
 
 /* GA4 conversion tracking */
+function trackLead(method) {
+    if (typeof gtag === "function") {
+        gtag("event", "generate_lead", {
+            method,
+            transport_type: "beacon"
+        });
+    }
+}
+
 document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
-    link.addEventListener('click', () => {
-        if (typeof gtag === 'function') {
-            gtag('event', 'generate_lead', {
-                method: 'email'
-            });
-        }
-    });
+    link.addEventListener("click", () => trackLead("email"));
 });
 
 document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
-    link.addEventListener('click', () => {
-        if (typeof gtag === 'function') {
-            gtag('event', 'generate_lead', {
-                method: 'phone'
-            });
-        }
-    });
+    link.addEventListener("click", () => trackLead("phone"));
 });
