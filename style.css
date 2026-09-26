@@ -436,3 +436,21 @@ em { color: var(--saffron); font-style: normal; }
     .service-feature-grid { grid-template-columns: 1fr; }
     .service-cta { padding: 34px 25px; }
 }
+
+
+/* Contextual service links */
+.service-related {
+    margin-top: 1.25rem;
+    color: var(--muted, #5d6570);
+    font-size: 0.95rem;
+}
+
+.service-related a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.service-related a:hover {
+    color: var(--navy, #15263a);
+}
