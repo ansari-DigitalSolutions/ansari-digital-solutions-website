@@ -44,3 +44,7 @@ document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
 document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
     link.addEventListener("click", () => trackLead("phone"));
 });
+
+document.querySelectorAll('a[href^="https://wa.me/"]').forEach((link) => {
+    link.addEventListener("click", () => trackLead("whatsapp"));
+});
