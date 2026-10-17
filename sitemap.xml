@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/</loc>
-  </url>
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/services/virtual-cfo/</loc>
-  </url>
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/services/financial-reporting-mis/</loc>
-  </url>
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/services/financial-analytics/</loc>
-  </url>
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/services/business-intelligence/</loc>
-  </url>
-  <url>
-    <loc>https://www.ansaridigitalsolutions.com/services/finance-process-automation/</loc>
-  </url>
+  <url><loc>https://www.ansaridigitalsolutions.com/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/insights/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/insights/cash-flow-management-small-business/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/insights/monthly-mis-reports-business-owners/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/insights/choose-accounting-software-india/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/services/virtual-cfo/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/services/financial-reporting-mis/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/services/financial-analytics/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/services/business-intelligence/</loc></url>
+  <url><loc>https://www.ansaridigitalsolutions.com/services/finance-process-automation/</loc></url>
 </urlset>
